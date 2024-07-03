@@ -1,0 +1,9 @@
+{
+	"name": "NYCPAYROLL-ADF",
+	"location": "uksouth",
+	"identity": {
+		"type": "SystemAssigned",
+		"principalId": "f7b6cead-decf-403f-8804-e96ea20da78d",
+		"tenantId": "0cde63fc-44c7-4d0c-95d2-b1fcdbfc7c44"
+	}
+}
