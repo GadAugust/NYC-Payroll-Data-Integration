@@ -1,5 +1,3 @@
-# NYC Payroll Data Integration Capstone Project
-
 ## Description of the Project
 
 The City of New York is undertaking a project to integrate payroll data across all its agencies. This project aims to develop a Data Analytics platform with two primary objectives:
