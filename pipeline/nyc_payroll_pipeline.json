@@ -1,0 +1,38 @@
+{
+	"name": "nyc_payroll_pipeline",
+	"properties": {
+		"description": "Extraction: Data is extracted from the source CSV files.\nTransformation: Data is cleaned, transformed, and enriched to ensure consistency and accuracy.\nLoading: Transformed data is loaded into the Azure SQL Database staging area for further processing.",
+		"activities": [
+			{
+				"name": "Get Source File Names",
+				"type": "GetMetadata",
+				"dependsOn": [],
+				"policy": {
+					"timeout": "0.12:00:00",
+					"retry": 0,
+					"retryIntervalInSeconds": 30,
+					"secureOutput": false,
+					"secureInput": false
+				},
+				"userProperties": [],
+				"typeProperties": {
+					"dataset": {
+						"referenceName": "source_filenames",
+						"type": "DatasetReference"
+					},
+					"fieldList": [
+						"childItems"
+					],
+					"storeSettings": {
+						"type": "AzureBlobStorageReadSettings",
+						"enablePartitionDiscovery": false
+					},
+					"formatSettings": {
+						"type": "JsonReadSettings"
+					}
+				}
+			}
+		],
+		"annotations": []
+	}
+}
