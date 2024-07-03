@@ -78,9 +78,12 @@ The City of New York is undertaking a project to integrate payroll data across a
    - Ensure the pipeline is optimized for performance by monitoring execution times and making necessary adjustments.
    - Validate and debug the pipeline to ensure it works correctly and efficiently.
 
-### Visual Representation
+### Visual Representation of Data Moved to staging
 ![WhatsApp Image 2024-06-28 at 11 05 10](https://github.com/GadAugust/NYC-Payroll-Data-Integration-Pipeline/assets/81167692/57640b24-8fdd-4f69-809f-9ba926931eaf)
 
+
+### Visual Representation of deleted source files:
+![WhatsApp Image 2024-07-03 at 15 44 01](https://github.com/GadAugust/NYC-Payroll-Data-Integration-Pipeline/assets/81167692/32780b7e-ec8f-4495-99cc-5bf464a3633a)
 
 
 3. **Data Aggregation**
